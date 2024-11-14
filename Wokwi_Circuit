@@ -1,0 +1,22 @@
+Este código implementa um sistema de balança eletrônica utilizando um ESP32, uma célula de carga com o amplificador HX711, 
+e um display LCD para exibir o peso medido. Ele também conecta-se a uma rede WiFi para publicar os dados de peso via protocolo MQTT em um broker público. 
+Aqui está um resumo do funcionamento:
+
+1. Configuração inicial:
+   - Conecta-se à rede WiFi.
+   - Configura o cliente MQTT e se conecta ao broker.
+   - Inicializa a célula de carga, realiza o processo de tara (calibração), e configura o display LCD.
+
+2. Loop principal:
+   - Atualiza as leituras da célula de carga.
+   - Exibe o peso no LCD.
+   - Publica o peso (em JSON) no tópico MQTT, se estiver abaixo do limite de sobrecarga.
+   - Detecta condição de sobrecarga e publica uma mensagem correspondente.
+
+3. Função de tara:
+   - Detecta a pressão do botão de tara e reinicia as configurações da célula de carga para recalibrar o peso base.
+
+4. MQTT:
+   - Recebe e processa mensagens de um tópico MQTT (embora o código apenas exiba essas mensagens no monitor serial, sem ações adicionais).
+
+O código é ideal para aplicações de monitoramento remoto de peso, como em balanças inteligentes ou sistemas industriais.
