@@ -3,7 +3,7 @@ Este código implementa um sistema de balança eletrônica utilizando um ESP32, 
 Instruções para rodar o código:
 
  	1. Após criar uma conta no Wokwi, faça login e crie um projeto ESP32.
- 	2. Nesse projeto, cole o código dado e implemente o circuito com base nas instruções do "InstrucoesCircuito_ESP32_HX711_LCD.txt".
+ 	2. Nesse projeto, cole o código dado e implemente o circuito com base nas instruções do "InstrucoesCircuito_ESP32_HX711_LCD.ino".
 	3. Observe que no código a configuração para o Wifi é um ponto de acesso aberto e nenhuma senha é necessária:
 	    	const char* ssid = "Wokwi-GUEST"; 
 		const char* password = ""; 
