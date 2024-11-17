@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------------------------------------------------------
+SEGUE ABAIXO AS INSTRUÇÕES PARA MONTAGEM DAS CONEXÕES PARA O CIRCUITO COM ESP32, HX711 e LCD.
+
+LINK VIDEO EXPLICATIVO UTILIZADO PARA MONTAGEM DO CIRCUITO: https://www.youtube.com/watch?v=EAHp4j7YJGM&list=LL&index=11&t=2s
+--------------------------------------------------------------------------------------------------------------------------------
+
+#### Alimentação
+- Conecte os pinos de **5V** e **GND** do ESP32 para alimentar o módulo HX711 e o LCD, 
+   ou adicione "VCC Symbol" e "GND Symbol" na simulação e os utilize como necessário em troca nos pinos do ESP32.
+
+#### Conexão do HX711
+- **DT (Data):** Pino 19 do ESP32.s
+- **SCK (Clock):** Pino 18 do ESP32.
+- **VCC e GND:** Conecte ao 5V e GND do ESP32, ou a "VCC Symbol" e "GND Symbol" respectivamente.
+
+#### Conexão do LCD
+- **RS:** Pino 23.
+- **EN:** Pino 22.
+- **D4:** Pino 5.
+- **D5:** Pino 17.
+- **D6:** Pino 16.
+- **D7:** Pino 4.
+- **VSS:** GND.
+- **VDD e VO:** 5V ou "VCC Symbol".
+
+#### Conexão do Botão (Tare)
+- Um lado do botão no pino 25 do ESP32.
+- Outro lado do botão no GND.
+
+#### Esquema de Conexão Resumido
+| Componente        | Pino ESP32   |
+|-------------------|--------------|
+| HX711 Data (DT)   | 19           |
+| HX711 Clock (SCK) | 18           |
+| LCD RS            | 23           |
+| LCD EN            | 22           |
+| LCD D4            | 5            |
+| LCD D5            | 17           |
+| LCD D6            | 16           |
+| LCD D7            | 4            |
+| Botão (Tare)      | 25           |
+
