@@ -5,4 +5,4 @@ PASTAS :
 
 esp32_WeightScale => Códigos usados no Wokwi para simular o circuito com o ESP32 e a célula de carga 5gk HX711, que envia as mensagens em formato json para o HiveMQ.
 
-MQTT_service => Códigos do cliente MQTT que recebe as mensagens vindas do HiveMQ.
+HiveMQTT_service => Códigos do cliente MQTT que recebe as mensagens vindas do HiveMQ.
