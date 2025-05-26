@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "spMZrZ/FvUA=",
+  "dgSpecHash": "Y/2FNy8/ZQU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\ProjetoCHNI\\MQTT_Service\\Code\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\API\\cnh-metodologia-picking\\API_HiveMQ\\HiveMQTT_Client(API)\\Code\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriela Ramos\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.10\\microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",
     "C:\\Users\\Gabriela Ramos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

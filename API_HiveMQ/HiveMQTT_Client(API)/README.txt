@@ -16,6 +16,7 @@ Instruções para rodar o código:
 4. Para rodar o código, digite no terminal:
 	cd "diretório_do_seu_programa"
 	dotnet run
+5. EXTRA: em adendo ao README, esta um código "API_NoSecurity" com a API sem usar um cluster, sem estar conectado a porta 1883(não segura) e sem utilizar usuário e senha. Código apenas para testar receber as mensagens/dados do HiveMQ, sem as questões de segurança.
 
 Abaixo está um resumo de sua funcionalidade:
 

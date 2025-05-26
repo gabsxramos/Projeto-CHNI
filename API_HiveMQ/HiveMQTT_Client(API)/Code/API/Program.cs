@@ -11,9 +11,9 @@ public class MqttService : IHostedService
     private readonly IMqttClient _mqttClient;
     private const string mqttServer = "2bbeb90f7c024f7a81d9db08b77aaf04.s1.eu.hivemq.cloud"; // Endereço do broker MQTT
     private const int mqttPort = 8883; // Porta segura MQTT
-    private const string topic = "weightScale/data"; // Tópico MQTT para assinatura
-    private const string username = "hivemq.webclient.1732295513039"; // Nome de usuário para o cluster
-    private const string password = "t68:@Go.C45hSgr>KlOP"; // Senha para o cluster
+    private const string topic = "weightScale/data"; // Tópico MQTT para assinatura --- Caso mude o tópico no broker, é necessario mudar para o mesmo tópico aqui, caso contraio, o código não receberá as mensagens/dados...
+    private const string username = "hivemq.webclient.1732295513039"; // Nome de usuário para o cluster --- Veja o seu cluster e mude aqui tambem ...
+    private const string password = "t68:@Go.C45hSgr>KlOP"; // Senha para o cluster --- Veja a senha do seu cluster e mude aqui tambem ...
 
     // Construtor que cria uma instância do cliente MQTT
     public MqttService()

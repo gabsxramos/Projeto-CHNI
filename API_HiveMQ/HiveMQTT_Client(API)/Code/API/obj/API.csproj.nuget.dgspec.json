@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\ProjetoCHNI\\MQTT_Service\\Code\\API\\API.csproj": {}
+    "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\API\\cnh-metodologia-picking\\API_HiveMQ\\HiveMQTT_Client(API)\\Code\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\ProjetoCHNI\\MQTT_Service\\Code\\API\\API.csproj": {
+    "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\API\\cnh-metodologia-picking\\API_HiveMQ\\HiveMQTT_Client(API)\\Code\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\ProjetoCHNI\\MQTT_Service\\Code\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\API\\cnh-metodologia-picking\\API_HiveMQ\\HiveMQTT_Client(API)\\Code\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\ProjetoCHNI\\MQTT_Service\\Code\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\API\\cnh-metodologia-picking\\API_HiveMQ\\HiveMQTT_Client(API)\\Code\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Gabriela Ramos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\ProjetoCHNI\\MQTT_Service\\Code\\API\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela Ramos\\OneDrive\\Desktop\\API\\cnh-metodologia-picking\\API_HiveMQ\\HiveMQTT_Client(API)\\Code\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
